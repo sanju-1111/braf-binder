@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets and config
+.env
+*.key
+
+# Data and model artifacts (these live on Google Drive, not GitHub)
+data/
+models/
+exports/
+logs/
+*.pt
+*.safetensors
+*.cif
+*.pdb
+*.zip
+af3_weights/
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
